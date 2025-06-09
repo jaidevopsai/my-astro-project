@@ -1,8 +1,24 @@
-# My Astro Project
+# Modern Astro Project with Tailwind CSS and Neon DB
 
-This is a simple Astro project that serves as a starting point for building fast and modern websites.
+A modern web application built with Astro, featuring a dark theme, Tailwind CSS for styling, and PostgreSQL integration using Neon.tech.
 
-## Project Structure
+## 🚀 Features
+
+- ⚡️ **Astro** - High-performance web framework
+- 🎨 **Tailwind CSS** - Utility-first CSS framework
+- 🌙 **Dark Theme** - Built-in dark mode support
+- 🗄️ **Neon PostgreSQL** - Serverless Postgres database
+- 📱 **Responsive Design** - Mobile-first approach
+- 🔧 **Type Safety** - TypeScript support
+
+## 🛠️ Tech Stack
+
+- [Astro](https://astro.build)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Neon Database](https://neon.tech)
+- [TypeScript](https://www.typescriptlang.org)
+
+## 📁 Project Structure
 
 ```
 my-astro-project
@@ -20,33 +36,65 @@ my-astro-project
 └── README.md               # Project documentation
 ```
 
-## Getting Started
+## 🚦 Getting Started
 
-To get started with this project, follow these steps:
-
-1. **Clone the repository**:
+1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jaidevopsai/my-astro-project.git
    cd my-astro-project
    ```
 
-2. **Install dependencies**:
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Run the development server**:
+3. **Set up environment variables**
+   Create a `.env` file in the root directory:
+   ```env
+   DATABASE_URL="your-neon-database-url"
+   ```
+
+4. **Start development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**:
-   Navigate to `http://localhost:3000` to see your project in action.
+   Visit `http://localhost:4321` to see your application.
 
-## Usage
+## 🔥 API Endpoints
 
-You can start building your website by modifying the files in the `src` directory. Add your components in the `src/components` folder, create layouts in `src/layouts`, and define your pages in the `src/pages` directory.
+- `GET /api/db/test` - Test database connectivity
 
-## License
+## 🎨 Styling
+
+The project uses Tailwind CSS with a custom dark theme configuration. Key features:
+- Custom color palette
+- Responsive design utilities
+- Dark mode support
+
+## 🗄️ Database
+
+This project uses Neon's serverless PostgreSQL. To set up:
+1. Create an account at [neon.tech](https://neon.tech)
+2. Create a new project
+3. Copy your database connection string
+4. Update your `.env` file
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
+
+## 📝 License
 
 This project is licensed under the MIT License.
