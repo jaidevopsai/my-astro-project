@@ -17,8 +17,11 @@
   "license": "MIT",
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
+    "@neondatabase/serverless": "^1.0.1",
     "@tailwindcss/vite": "^4.1.8",
-    "astro": "^4.0.3"
+    "astro": "^4.0.3",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.44.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
