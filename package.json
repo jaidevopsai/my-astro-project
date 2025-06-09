@@ -1,0 +1,28 @@
+{
+  "name": "my-astro-project",
+  "version": "1.0.0",
+  "description": "A new Astro project",
+  "main": "src/pages/index.astro",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "setup:tailwind": "npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p"
+  },
+  "keywords": [
+    "astro",
+    "project"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^4.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.17"
+  }
+}
